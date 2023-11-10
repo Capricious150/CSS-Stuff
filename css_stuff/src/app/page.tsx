@@ -1,13 +1,14 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import HomePage from './home/HomePage'
+
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
+          <HomePage />
         </p>
         <div>
           <a
@@ -47,9 +48,9 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Docs <span>-&gt;</span>
+            I.O.U. <span>-&gt;</span>
           </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
+          <p>One website</p>
         </a>
 
         <a
@@ -59,9 +60,9 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Learn <span>-&gt;</span>
+            I'm too sleepy to code <span>-&gt;</span>
           </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
+          <p>So why did I start the project now then?</p>
         </a>
 
         <a
@@ -71,7 +72,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2>
-            Templates <span>-&gt;</span>
+            Good night <span>-&gt;</span>
           </h2>
           <p>Explore the Next.js 13 playground.</p>
         </a>
