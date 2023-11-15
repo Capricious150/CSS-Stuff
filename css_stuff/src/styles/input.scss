@@ -2,6 +2,7 @@
     background-color: #141414;
     margin: 0;
     padding: 0;
+    line-height: 1.1rem;
 }
 
 .navBar {
@@ -15,8 +16,8 @@
     align-items: center;
 }
 
-.logo {
-    color: yellow;
+.postHead {
+    line-height: 1.4rem;
 }
 
 #accountCircle {
