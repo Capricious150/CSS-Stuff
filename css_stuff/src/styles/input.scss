@@ -15,3 +15,98 @@
     align-items: center;
 }
 
+.logo {
+    color: yellow;
+}
+
+
+//Reusables
+//widthPercent
+.wp10 {
+    width: 10%;
+    min-width: 8rem;
+}
+
+.wp20 {
+    width: 20%;
+    min-width: 8rem;
+    // background-color: white;
+}
+
+.wp25 {
+    width: 25%;
+    min-width: 8rem;
+}
+
+.wp30 {
+    width: 30%;
+    min-width: 8rem;
+}
+
+.wp50 {
+    width: 50%;
+    min-width: 12rem;
+}
+
+.wp60 {
+    width: 50%;
+    min-width: 12rem;
+}
+
+.wp70 {
+    width: 70%;
+    min-width: 12rem;
+}
+
+.wp75 {
+    width: 75%;
+    min-width: 16rem;
+}
+
+.wp80 {
+    width: 80%;
+    min-width: 16rem;
+}
+
+.wp90 {
+    width: 90%;
+    min-width: 16rem;
+}
+
+//margin
+.m1 {
+    margin: 1rem;
+}
+
+.m2 {
+    margin: 2rem;
+}
+
+//padding
+.p1 {
+    padding: 1rem;
+}
+
+.p2 {
+    padding: 2rem;
+}
+
+//font color
+.white {
+    color: white;
+}
+
+.yellow {
+    color: yellow;
+}
+
+//flex
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
